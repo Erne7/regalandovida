@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(246,204,249);
+    background: linear-gradient(90deg, rgba(246,204,249,1) 0%, rgb(233, 102, 247) 100%);
+}
+
+.font-title{font-family: 'Dancing Script', cursive;}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.font-text{
+    font-family: 'Amatic SC', cursive;
+}
+
+.hover:hover li{
+    color: blueviolet;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.bg-purple-light{
+    background-color: rgb(224, 174, 249);
+}
+
+.bg-purple-dark{
+    background-color: rgb(94, 7, 138);
+}
+
+.text-purple{
+    color: rgb(94, 7, 138);
+}
+
+.fs-23{
+    font-size: 23px;
+}
+.fs-48{
+    font-size: 48px;
+}
+
+.wd{
+    width: 360px !important;
+}
+.relative{
+    position: relative;
+}
+.vh-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+
+@media (max-width: 576px) {  
+    .colores{
+        background-color: red;
+    }
+    .wd{
+        width: 360px !important;
+    }
+    .fs-name{
+        font-size: 21px !important;
+        color: antiquewhite;
+    }
+    
+    
+ } 
+
+@media (min-width: 576px) and (max-width: 769px) {  
+    .colores{
+        background-color: greenyellow;
+    }
+    .wd{
+        width: 560px !important;
+    }
+    .fs-name{
+        font-size: 17px !important;
+        color: antiquewhite;
+    }
+
+    
+ } 
+
+ @media (min-width: 770px) and (max-width: 992px) {  
+    .colores{
+        background-color: purple;
+    }
+    .height{
+        max-width: 800px;
+    }
+    .container-fluid{
+        max-width: 800px;
+    }
+    .col-12 {
+        width: 500px !important;
+    }
+    .wd{
+        width: 750px !important;
+    }
+    .fs-name{
+        font-size: 21px !important;
+        color: antiquewhite;
+    }
+    
+ } 
+
+ 
+ @media (min-width: 993px) and (max-width: 7400px) {  
+    .colores{
+        background-color: orange;
+    }
+    .height{
+        max-width: 950px;
+    }
+    .container-fluid{
+        max-width: 950px;
+    }
+    .wd{
+        width: 950px !important;
+    }
+    .fs-name{
+        font-size: 22px !important;
+        color: antiquewhite;
+    }
+
+    
+ } 
+ 
+ 
+
+ /* 
+ 
+ @media (min-width: 576px) { ... }
+ @media (min-width: 768px) { ... }
+ @media (min-width: 992px) { ... }
+ @media (min-width: 1200px) { ... }
+ @media (min-width: 1400px) { ... }
+ 
+ */
