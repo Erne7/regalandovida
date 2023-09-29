@@ -18,7 +18,7 @@ body {
 }
 
 .hover:hover li{
-    color: blueviolet;
+    color: blueviolet !important;
 }
 
 .act{
@@ -62,6 +62,10 @@ body {
     
 }
 
+.format-name{
+    color:rgb(255, 255, 255);
+}
+
 
 
 @media (max-width: 576px) {  
@@ -71,9 +75,8 @@ body {
     .wd{
         width: 360px !important;
     }
-    .fs-name{
+    .format-name{
         font-size: 21px !important;
-        color: antiquewhite;
     }
     
     
@@ -86,9 +89,8 @@ body {
     .wd{
         width: 560px !important;
     }
-    .fs-name{
+    .format-name{
         font-size: 17px !important;
-        color: antiquewhite;
     }
 
     
@@ -110,9 +112,8 @@ body {
     .wd{
         width: 750px !important;
     }
-    .fs-name{
+    .format-name{
         font-size: 21px !important;
-        color: antiquewhite;
     }
     
  } 
@@ -131,9 +132,8 @@ body {
     .wd{
         width: 950px !important;
     }
-    .fs-name{
+    .format-name{
         font-size: 22px !important;
-        color: antiquewhite;
     }
 
     
