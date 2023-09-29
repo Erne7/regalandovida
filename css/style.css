@@ -21,6 +21,10 @@ body {
     color: blueviolet;
 }
 
+.act{
+    color: blueviolet !important;
+}
+
 .text-justify{
     text-align: justify;
 }
