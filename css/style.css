@@ -78,6 +78,9 @@ body {
     .format-name{
         font-size: 21px !important;
     }
+    .menu{
+        flex-direction: column !important;
+    }
     
     
  } 
@@ -91,6 +94,9 @@ body {
     }
     .format-name{
         font-size: 17px !important;
+    }
+    .menu{
+        flex-direction: column !important;
     }
 
     
