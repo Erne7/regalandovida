@@ -97,6 +97,7 @@ body {
     }
     .menu{
         flex-direction: column !important;
+        font-size: 40px !important;
     }
 
     
