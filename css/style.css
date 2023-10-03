@@ -30,15 +30,15 @@ body {
 }
 
 .bg-purple-light{
-    background-color: rgb(224, 174, 249);
+    background-color: rgb(224, 174, 249) !important;
 }
 
 .bg-purple-dark{
-    background-color: rgb(94, 7, 138);
+    background-color: rgb(94, 7, 138) !important;
 }
 
 .text-purple{
-    color: rgb(94, 7, 138);
+    color: rgb(94, 7, 138) !important;
 }
 
 .fs-23{
