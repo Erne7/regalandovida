@@ -80,6 +80,7 @@ body {
     }
     .menu{
         flex-direction: column !important;
+        font-size: 48px !important;
     }
     
     
@@ -97,7 +98,7 @@ body {
     }
     .menu{
         flex-direction: column !important;
-        font-size: 48px !important;
+        font-size: 58px !important;
     }
 
     
