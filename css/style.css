@@ -253,8 +253,44 @@ body {
         width: 560px !important;
     }
     .format-name{
-        font-size: 27px !important;
+        color:#a711ad !important;
+        font-size: 27px !important;    
+        font-weight: 600 !important; 
+        margin-bottom: 70px !important;
     }
+    .menu{
+        list-style-type: none;
+        display: flex;
+        font-size: 28px;    
+        padding: 0;
+        margin: 0;
+        font-weight: 600;
+    }
+    .menu>a{
+        color: rgb(244, 17, 236);
+        padding: 10px;
+    }
+    .fs-small{
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+    }
+    .fs-38{
+        font-size: 28px;
+    }
+    .fs-20{
+        font-size: 16px;
+    }
+    .hovercap {
+        width:380px; padding: 5px;
+      }
+    .p-fixed{
+        visibility: hidden !important;
+    }
+    .wd-camp{
+        width: 400px !important;
+    }
+    
     .menu{
         display: flex;
         flex-wrap: wrap;
