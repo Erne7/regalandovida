@@ -191,7 +191,12 @@ body {
     transition: 0.5s;
 }
 
-
+.social{
+    justify-content: center;
+    
+    margin-bottom: 25px;
+    margin-top: 0;
+}
 
 
 
