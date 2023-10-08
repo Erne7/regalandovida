@@ -226,7 +226,7 @@ body {
         padding: 0;
     }
     .fs-38{
-        font-size: 28px;
+        font-size: 34px;
     }
     .fs-20{
         font-size: 16px;
@@ -291,15 +291,7 @@ body {
         width: 400px !important;
     }
     
-    .menu{
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0;
-        /* flex-direction: column !important; */
-        padding: 0;
-        
-    }
-
+   
     
  } 
 
