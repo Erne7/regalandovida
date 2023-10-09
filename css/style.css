@@ -5,178 +5,76 @@ body {
     background: linear-gradient(90deg, rgba(246,204,249,1) 0%, rgb(244, 187, 250) 100%);
 }
 
+/* logo */
 .font-title{font-family: 'Dancing Script', cursive;}
-
-.logo-bg{
     
-    /* standard gradient background */
+.logo-bg{
     background: linear-gradient(rgb(244, 17, 236), rgb(252, 67, 154));
-
-    /* clip informático */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+/* end logo */
 
-.bg-white-soft{
-    background: rgba(252, 229, 250, 0.3) !important;
-}
-
-.bg-white-normal{
-    background: rgba(252, 229, 250, 0.7) !important;
-}
-
-.bg-purple-light{
-    background-color: rgb(224, 174, 249) !important;
-}
-
-.bg-purple-dark{
-    background-color: rgb(94, 7, 138) !important;
-}
-
-/* FONTS */
-
+/* menu */
 .menu{
     list-style-type: none;
-    display: flex;
-    font-size: 48px;    
+    display: flex;  
     padding: 0;
     margin: 0;
     font-weight: 600;
 }
-.menu>a{
-    color: rgb(244, 17, 236);
-    padding: 10px;
-}
 
-.fs-small{
-    font-size: 15px;
-    margin: 0;
-    padding: 0;
-}
+.menu>a{color: rgb(244, 17, 236);padding: 10px;}
+.hover:hover li{color: rgb(255, 255, 255) !important;}
+.act {color: rgb(255, 255, 255) !important;font-weight: 600;}
+/* end menu */
 
-.ff-amatic{
-    font-family: 'Amatic SC', cursive;
-}
+/* fondos */
+.bg-white-soft{background: rgba(252, 229, 250, 0.3) !important;}
+.bg-white-normal{background: rgba(252, 229, 250, 0.7) !important;}
+.bg-purple-light{background-color: rgb(224, 174, 249) !important;}
+.bg-purple-dark{background-color: rgb(94, 7, 138) !important;}
+/* end fondos */
 
-.hover:hover li{
-    color: rgb(255, 255, 255) !important;
-}
+/* fuentes */
+.ff-amatic{font-family: 'Amatic SC', cursive;}
+.text-justify{text-align: justify !important;}
+.text-purple {color: #a711ad !important;}
+  
+.text-pink{color: rgb(244, 17, 236);}
 
-.act {
-    color: rgb(255, 255, 255) !important;
-    font-weight: 600;
-}
+.tx-pink-soft{color: #fea8ff !important;}
 
-.text-justify{
-    text-align: justify !important;
-}
+.fs-xs{font-size: 17px !important;}
+.fs-sm{font-size: 24px !important;}
+.fs-md{font-size: 28px !important;}
+.fs-lg{font-size: 32px !important;}
+.fs-xl{font-size: 36px !important;}
+.fs-xxl{font-size:48px !important;}
+.fs-name{font-size:28px !important;}
+    
+.tx-shadow{text-shadow: 0.2px 0.1px 30px #de2be4 !important;}
+.tx-shadow-white{text-shadow: 2px 2px 4px #ffffff !important;}
+.tx-hover:hover{color: #e904f1 !important;transition: 0.5s;} /*hover image en campañas*/
 
-.text-purple {
-  color: #a711ad !important;
-}
+/* end fuentes */
 
-.text-pink{
-    color: rgb(244, 17, 236);
-}
-
-.tx-pink-soft{
-    color: #fea8ff !important;
-}
-
-.fs-menu{
-    font-size: 48px;
-}
-.tx-shadow{
-    text-shadow: 0.2px 0.1px 30px #de2be4 !important;
-}
-.tx-shadow-white{
-    text-shadow: 2px 2px 4px #ffffff !important;
-}
-
-.fs-48{
-    font-size: 48px;
-}
-
-.fs-38{
-    font-size: 38px;
-}
-
-.fs-23{
-    font-size: 23px;
-}
-.fs-20{
-    font-size: 20px;
-}
-.fs-17{
-    font-size: 15px;
-}
-
-
-/* END FONTS */
-
-.relative{
-    position: relative;
-}
-
+/* position */
+.relative{position: relative;}
 .vh-center {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
 }
+/* end position */
 
-.format-name{
-    color:#a711ad;
-    font-size: 20px;    
-    font-weight: 600; 
+/* footer */
+.social{
+    justify-content: center;
+    margin-bottom: 25px;
+    margin-top: 0;
 }
-
-.wd-camp{
-    width: 500px !important;
-}
-
-.p-fixed{
-    position: fixed;
-    bottom: 0;
-    background-color: #a711ad;
-}
-
-
-
-
-/* (A) RESPONSIVE IMAGE */
-/* .hoverwrap img { 
-    width: 100%; 
-} */
-.hoverwrap{
-    position: relative; /* required for (b1) */
-}
-
-/* (B) POSITION CAPTION */
-.hovercap {
-    
-  /* (B1) PLACE AT BOTTOM */
-  position: absolute; bottom: 0; left: 0;
-  
-  /* (B2) DIMENSIONS + COLORS */
-  width:295px; padding: 5px;
-  margin-left: 8px;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-/* (C) ONLY SHOW CAPTION ON HOVER */
-.hovercap {
-  visibility: none; opacity: 0;
-  transition: opacity 0.3s;
-}
-.hoverwrap:hover .hovercap {
-  visibility: visible; opacity: 1;
-}
-
-
-
 .bottom-footer{
     position: fixed;
     bottom: 0;
@@ -185,162 +83,119 @@ body {
     margin: 0;
     padding: 0;
 }
+/* end footer */
 
-.tx-hover:hover{
-    color: #e904f1 !important;
-    transition: 0.5s;
+/* seccion de campañas */
+
+.wd-camp{width: 500px !important;}
+.p-fixed{position: fixed;bottom: 0;background-color: #a711ad;}
+
+
+/* end camp */
+
+/* HOVER IMAGE */
+.hoverwrap{
+    position: relative; 
 }
 
-.social{
-    justify-content: center;
-    
-    margin-bottom: 25px;
-    margin-top: 0;
+.hovercap {
+  position: absolute; bottom: 0; 
+  /* left: 0; */
+  /* width:97%; padding: 5px; */
+  /* margin-left: 8px; */
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
 }
-
-
-
-
+.hovercap {
+  visibility: none; opacity: 0;
+  transition: opacity 0.3s;
+}
+.hoverwrap:hover .hovercap {
+  visibility: visible; opacity: 1;
+}
+/*  END HOVER IMAGE */
 
 @media (max-width: 576px) {  
-    
-    .wd{
-        width: 260px !important;
-    }
-    .format-name{
-        color:#a711ad;
-        font-size: 38px;    
-        font-weight: 600; 
-        margin-bottom: 70px;
-    }
-    .menu{
-        list-style-type: none;
-        display: flex;
-        font-size: 28px;    
-        padding: 0;
-        margin: 0;
-        font-weight: 600;
-    }
-    .menu>a{
-        color: rgb(244, 17, 236);
-        padding: 10px;
-    }
-    .fs-small{
-        font-size: 14px;
-        margin: 0;
-        padding: 0;
-    }
-    .fs-38{
-        font-size: 34px;
-    }
-    .fs-20{
-        font-size: 16px;
-    }
-    .hovercap {
-        width:380px; padding: 5px;
-      }
-    .p-fixed{
-        visibility: hidden !important;
-    }
-    .wd-camp{
-        width: 400px !important;
-    }
-    
-    
-    
- } 
-
-@media (min-width: 576px) and (max-width: 769px) {  
     .colores{
-        background-color: greenyellow;
-    }
-    .wd{
-        width: 560px !important;
-    }
-    .format-name{
-        color:#a711ad !important;
-        font-size: 27px !important;    
-        font-weight: 600 !important; 
-        margin-bottom: 70px !important;
-    }
-    .menu{
-        list-style-type: none;
-        display: flex;
-        font-size: 28px;    
+        background-color: red;
         padding: 0;
         margin: 0;
-        font-weight: 600;
     }
-    .menu>a{
-        color: rgb(244, 17, 236);
-        padding: 10px;
-    }
-    .fs-small{
-        font-size: 14px;
-        margin: 0;
-        padding: 0;
-    }
-    .fs-38{
-        font-size: 28px;
-    }
-    .fs-20{
-        font-size: 16px;
-    }
-    .hovercap {
-        width:380px; padding: 5px;
-      }
-    .p-fixed{
-        visibility: hidden !important;
-    }
-    .wd-camp{
-        width: 400px !important;
-    }
-    
-   
-    
+    .hovercap {width:97%; padding: 5px;}
+    .p-fixed{visibility: hidden;}
+    .wdt{width: 270px;}
+    .fs-xxl{font-size: 35px !important;}
+    .fs-name{font-size: 35px !important;}
  } 
 
- @media (min-width: 770px) and (max-width: 992px) {  
+@media (min-width: 577px) and (max-width: 768px) { 
     .colores{
-        background-color: purple;
+        background-color: rgb(255, 136, 0);
+        padding: 0;
+        margin: 0;
+    }   
+    .hovercap {width:97%; padding: 5px;  max-height: 160px;}
+    .p-fixed{visibility: hidden;}
+    .pad{padding: 0px 25px 0px 25px !important;}
+    .wdt{width: 110px;}
+    .fs-md{font-size: 38px !important;}
+    .fs-xl{font-size: 36px !important; }
+    .fs-name{font-size: 15px !important;}
+ } 
+
+ @media (min-width: 769px) and (max-width: 992px) {
+    .colores{
+        background-color: rgb(251, 255, 0);
+        padding: 0;
+        margin: 0;
     }
-    .height{
-        max-width: 800px;
-    }
-    .container-fluid{
-        max-width: 800px;
-    }
-    .col-12 {
-        width: 500px !important;
-    }
-    .wd{
-        width: 750px !important;
-    }
-    .format-name{
-        font-size: 21px !important;
-    }
+    .hovercap {width:93%; padding: 5px; max-height: 160px;}
+    .p-fixed{visibility: hidden;}
+    .pad{padding: 0px 15px 0px 15px !important;}
+    .wdt{width: 150px;}
+    .fs-md{font-size: 38px !important;}
+    .fs-xl{font-size: 38px !important; }
+    .fs-xxl{font-size: 35px !important;}
+    .fs-name{font-size: 20px !important;}
+    .container{width: 80% !important;}
     
  } 
 
+ @media (min-width: 993px) and (max-width: 1200px) {  
+    .colores{
+        background-color: rgb(0, 255, 51);
+        padding: 0;
+        margin: 0;
+    }
+    .hovercap {width:95%; padding: 5px;}
+    .p-fixed{visibility: hidden;}
+    .pad{padding: 0px 55px 0px 55px !important;}
+    .wdt{width: 150px;}
+    .fs-md{font-size: 48px !important;}
+    .fs-xl{font-size: 36px !important; }
+    .fs-xxl{font-size: 35px !important;}
+    .fs-name{font-size: 20px !important;}
+ } 
  
- @media (min-width: 993px) and (max-width: 7400px) {  
+ @media (min-width: 1201px) and (max-width: 7000px) {  
     .colores{
-        background-color: orange;
+        background-color: rgb(0, 255, 251);
+        padding: 0;
+        margin: 0;
     }
-    .height{
-        max-width: 950px;
-    }
-    .container-fluid{
-        max-width: 950px;
-    }
-    .wd{
-        width: 950px !important;
-    }
-    .format-name{
-        font-size: 22px !important;
-    }
+    .hovercap {width:96.5%; padding: 5px;}
+    .p-fixed{visibility: visible;}
+    .pad{padding: 0px 85px 0px 85px !important;}
+    .wdt{width: 150px;}
+    .fs-sm{font-size: 22px !important;}
+    .fs-md{font-size: 48px !important;}
+    .fs-xl{font-size: 46px !important; }
+    .fs-xxl{font-size: 35px !important;}
+    .fs-name{font-size: 20px !important;}
+    .container{width: 80% !important;}
+    .camp-wd{width: 600px !important;}
 
-    
+
  } 
  
  
