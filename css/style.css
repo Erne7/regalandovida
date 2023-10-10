@@ -194,6 +194,7 @@ body {
     .p-fixed{visibility: visible;}
     .pad{padding: 0px 85px 0px 85px !important;}
     .wdt{width: 350px; margin-top: 40px;}
+    .fs-xs{font-size: 26px !important;}
     .fs-sm{font-size: 32px !important;}
     .fs-md{font-size: 48px !important;}
     .fs-xl{font-size: 46px !important; }
