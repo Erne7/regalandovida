@@ -124,8 +124,10 @@ body {
     .hovercap {width:97%; padding: 5px;}
     .p-fixed{visibility: hidden;}
     .wdt{width: 270px;}
+    .fs-sm{font-size: 20px !important;}
     .fs-xxl{font-size: 35px !important;}
     .fs-name{font-size: 35px !important;}
+    /* .vh-center {position: absolute;top: 20%;left: 50%;transform: translate(-50%, -50%);} */
  } 
 
 @media (min-width: 577px) and (max-width: 768px) { 
@@ -137,10 +139,12 @@ body {
     .hovercap {width:97%; padding: 5px;  max-height: 160px;}
     .p-fixed{visibility: hidden;}
     .pad{padding: 0px 25px 0px 25px !important;}
-    .wdt{width: 110px;}
+    .wdt{width: 270px;}
+    .fs-sm{font-size: 20px !important;}
     .fs-md{font-size: 38px !important;}
     .fs-xl{font-size: 36px !important; }
-    .fs-name{font-size: 15px !important;}
+    .fs-name{font-size: 26px !important;}
+    
  } 
 
  @media (min-width: 769px) and (max-width: 992px) {
@@ -152,12 +156,14 @@ body {
     .hovercap {width:93%; padding: 5px; max-height: 160px;}
     .p-fixed{visibility: hidden;}
     .pad{padding: 0px 15px 0px 15px !important;}
-    .wdt{width: 150px;}
+    .wdt{width: 350px;}
+    .fs-sm{font-size: 20px !important;}
     .fs-md{font-size: 38px !important;}
     .fs-xl{font-size: 38px !important; }
     .fs-xxl{font-size: 35px !important;}
-    .fs-name{font-size: 20px !important;}
-    .container{width: 80% !important;}
+    .fs-name{font-size: 35px !important;}
+    .container{width: 95% !important;}
+    .vh-center {position: absolute;top: 40%;left: 50%;transform: translate(-50%, -50%);}
     
  } 
 
@@ -170,11 +176,12 @@ body {
     .hovercap {width:95%; padding: 5px;}
     .p-fixed{visibility: hidden;}
     .pad{padding: 0px 55px 0px 55px !important;}
-    .wdt{width: 150px;}
+    .wdt{width: 350px; margin-top: 60px;}
     .fs-md{font-size: 48px !important;}
     .fs-xl{font-size: 36px !important; }
     .fs-xxl{font-size: 35px !important;}
-    .fs-name{font-size: 20px !important;}
+    .fs-name{font-size: 30px !important;}
+    .datos{visibility: hidden;}
  } 
  
  @media (min-width: 1201px) and (max-width: 7000px) {  
@@ -186,14 +193,15 @@ body {
     .hovercap {width:96.5%; padding: 5px;}
     .p-fixed{visibility: visible;}
     .pad{padding: 0px 85px 0px 85px !important;}
-    .wdt{width: 150px;}
+    .wdt{width: 350px; margin-top: 60px;}
     .fs-sm{font-size: 22px !important;}
     .fs-md{font-size: 48px !important;}
     .fs-xl{font-size: 46px !important; }
     .fs-xxl{font-size: 35px !important;}
-    .fs-name{font-size: 20px !important;}
-    .container{width: 80% !important;}
+    .fs-name{font-size: 30px !important;}
+    .container{width: 90% !important;}
     .camp-wd{width: 600px !important;}
+    .datos{visibility:hidden}
 
 
  } 
