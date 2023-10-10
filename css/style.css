@@ -127,7 +127,8 @@ body {
     .fs-sm{font-size: 20px !important;}
     .fs-xxl{font-size: 35px !important;}
     .fs-name{font-size: 35px !important;}
-    /* .vh-center {position: absolute;top: 20%;left: 50%;transform: translate(-50%, -50%);} */
+    .fs-body{font-size: 20px !important;}
+    
  } 
 
 @media (min-width: 577px) and (max-width: 768px) { 
@@ -144,6 +145,7 @@ body {
     .fs-md{font-size: 38px !important;}
     .fs-xl{font-size: 36px !important; }
     .fs-name{font-size: 26px !important;}
+    .fs-body{font-size: 20px !important;}
     
  } 
 
@@ -162,6 +164,7 @@ body {
     .fs-xl{font-size: 38px !important; }
     .fs-xxl{font-size: 35px !important;}
     .fs-name{font-size: 35px !important;}
+    .fs-body{font-size: 20px !important;}
     .container{width: 95% !important;}
     .vh-center {position: absolute;top: 40%;left: 50%;transform: translate(-50%, -50%);}
     
@@ -181,6 +184,7 @@ body {
     .fs-xl{font-size: 36px !important; }
     .fs-xxl{font-size: 35px !important;}
     .fs-name{font-size: 30px !important;}
+    .fs-body{font-size: 20px !important;}
     .datos{visibility: hidden;}
  } 
  
@@ -200,6 +204,7 @@ body {
     .fs-xl{font-size: 46px !important; }
     .fs-xxl{font-size: 48px !important;}
     .fs-name{font-size: 30px !important;}
+    .fs-body{font-size: 22px !important;}
     .container{width: 90% !important;}
     .camp-wd{width: 600px !important;}
     .datos{visibility:hidden}
